@@ -102,4 +102,4 @@ xcuserdata/
 *.xcscmblueprint
 *.xccheckout
 
-
+/FluctSDK-iOS
