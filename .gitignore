@@ -102,4 +102,4 @@ xcuserdata/
 *.xcscmblueprint
 *.xccheckout
 
-/FluctSDK-iOS-6.30.2
+.DS_Store
