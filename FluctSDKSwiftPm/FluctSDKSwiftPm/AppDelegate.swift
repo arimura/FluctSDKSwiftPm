@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import FluctSDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
