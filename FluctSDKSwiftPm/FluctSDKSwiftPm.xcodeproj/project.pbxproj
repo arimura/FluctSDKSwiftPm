@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67660B0A2B4D067600FB7FE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67660B092B4D067600FB7FE7 /* AppDelegate.swift */; };
+		67660B0C2B4D067600FB7FE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67660B0B2B4D067600FB7FE7 /* SceneDelegate.swift */; };
+		67660B0E2B4D067600FB7FE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67660B0D2B4D067600FB7FE7 /* ViewController.swift */; };
+		67660B112B4D067600FB7FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67660B0F2B4D067600FB7FE7 /* Main.storyboard */; };
+		67660B132B4D067700FB7FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67660B122B4D067700FB7FE7 /* Assets.xcassets */; };
+		67660B162B4D067700FB7FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67660B142B4D067700FB7FE7 /* LaunchScreen.storyboard */; };
+		67660B212B4D067700FB7FE7 /* FluctSDKSwiftPmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67660B202B4D067700FB7FE7 /* FluctSDKSwiftPmTests.swift */; };
+		67660B2B2B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67660B2A2B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.swift */; };
+		67660B2D2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67660B2C2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67660B1D2B4D067700FB7FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67660AFE2B4D067600FB7FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67660B052B4D067600FB7FE7;
+			remoteInfo = FluctSDKSwiftPm;
+		};
+		67660B272B4D067800FB7FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67660AFE2B4D067600FB7FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67660B052B4D067600FB7FE7;
+			remoteInfo = FluctSDKSwiftPm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67660B062B4D067600FB7FE7 /* FluctSDKSwiftPm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluctSDKSwiftPm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67660B092B4D067600FB7FE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67660B0B2B4D067600FB7FE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67660B0D2B4D067600FB7FE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67660B102B4D067600FB7FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67660B122B4D067700FB7FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67660B152B4D067700FB7FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67660B172B4D067700FB7FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67660B1C2B4D067700FB7FE7 /* FluctSDKSwiftPmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluctSDKSwiftPmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67660B202B4D067700FB7FE7 /* FluctSDKSwiftPmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctSDKSwiftPmTests.swift; sourceTree = "<group>"; };
+		67660B262B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluctSDKSwiftPmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67660B2A2B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctSDKSwiftPmUITests.swift; sourceTree = "<group>"; };
+		67660B2C2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctSDKSwiftPmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67660B032B4D067600FB7FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67660B192B4D067700FB7FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67660B232B4D067800FB7FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67660AFD2B4D067600FB7FE7 = {
+			isa = PBXGroup;
+			children = (
+				67660B082B4D067600FB7FE7 /* FluctSDKSwiftPm */,
+				67660B1F2B4D067700FB7FE7 /* FluctSDKSwiftPmTests */,
+				67660B292B4D067800FB7FE7 /* FluctSDKSwiftPmUITests */,
+				67660B072B4D067600FB7FE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67660B072B4D067600FB7FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67660B062B4D067600FB7FE7 /* FluctSDKSwiftPm.app */,
+				67660B1C2B4D067700FB7FE7 /* FluctSDKSwiftPmTests.xctest */,
+				67660B262B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67660B082B4D067600FB7FE7 /* FluctSDKSwiftPm */ = {
+			isa = PBXGroup;
+			children = (
+				67660B092B4D067600FB7FE7 /* AppDelegate.swift */,
+				67660B0B2B4D067600FB7FE7 /* SceneDelegate.swift */,
+				67660B0D2B4D067600FB7FE7 /* ViewController.swift */,
+				67660B0F2B4D067600FB7FE7 /* Main.storyboard */,
+				67660B122B4D067700FB7FE7 /* Assets.xcassets */,
+				67660B142B4D067700FB7FE7 /* LaunchScreen.storyboard */,
+				67660B172B4D067700FB7FE7 /* Info.plist */,
+			);
+			path = FluctSDKSwiftPm;
+			sourceTree = "<group>";
+		};
+		67660B1F2B4D067700FB7FE7 /* FluctSDKSwiftPmTests */ = {
+			isa = PBXGroup;
+			children = (
+				67660B202B4D067700FB7FE7 /* FluctSDKSwiftPmTests.swift */,
+			);
+			path = FluctSDKSwiftPmTests;
+			sourceTree = "<group>";
+		};
+		67660B292B4D067800FB7FE7 /* FluctSDKSwiftPmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67660B2A2B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.swift */,
+				67660B2C2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift */,
+			);
+			path = FluctSDKSwiftPmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67660B052B4D067600FB7FE7 /* FluctSDKSwiftPm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67660B302B4D067800FB7FE7 /* Build configuration list for PBXNativeTarget "FluctSDKSwiftPm" */;
+			buildPhases = (
+				67660B022B4D067600FB7FE7 /* Sources */,
+				67660B032B4D067600FB7FE7 /* Frameworks */,
+				67660B042B4D067600FB7FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluctSDKSwiftPm;
+			productName = FluctSDKSwiftPm;
+			productReference = 67660B062B4D067600FB7FE7 /* FluctSDKSwiftPm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67660B1B2B4D067700FB7FE7 /* FluctSDKSwiftPmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67660B332B4D067800FB7FE7 /* Build configuration list for PBXNativeTarget "FluctSDKSwiftPmTests" */;
+			buildPhases = (
+				67660B182B4D067700FB7FE7 /* Sources */,
+				67660B192B4D067700FB7FE7 /* Frameworks */,
+				67660B1A2B4D067700FB7FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67660B1E2B4D067700FB7FE7 /* PBXTargetDependency */,
+			);
+			name = FluctSDKSwiftPmTests;
+			productName = FluctSDKSwiftPmTests;
+			productReference = 67660B1C2B4D067700FB7FE7 /* FluctSDKSwiftPmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67660B252B4D067800FB7FE7 /* FluctSDKSwiftPmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67660B362B4D067800FB7FE7 /* Build configuration list for PBXNativeTarget "FluctSDKSwiftPmUITests" */;
+			buildPhases = (
+				67660B222B4D067800FB7FE7 /* Sources */,
+				67660B232B4D067800FB7FE7 /* Frameworks */,
+				67660B242B4D067800FB7FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67660B282B4D067800FB7FE7 /* PBXTargetDependency */,
+			);
+			name = FluctSDKSwiftPmUITests;
+			productName = FluctSDKSwiftPmUITests;
+			productReference = 67660B262B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67660AFE2B4D067600FB7FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					67660B052B4D067600FB7FE7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					67660B1B2B4D067700FB7FE7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 67660B052B4D067600FB7FE7;
+					};
+					67660B252B4D067800FB7FE7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 67660B052B4D067600FB7FE7;
+					};
+				};
+			};
+			buildConfigurationList = 67660B012B4D067600FB7FE7 /* Build configuration list for PBXProject "FluctSDKSwiftPm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67660AFD2B4D067600FB7FE7;
+			productRefGroup = 67660B072B4D067600FB7FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67660B052B4D067600FB7FE7 /* FluctSDKSwiftPm */,
+				67660B1B2B4D067700FB7FE7 /* FluctSDKSwiftPmTests */,
+				67660B252B4D067800FB7FE7 /* FluctSDKSwiftPmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67660B042B4D067600FB7FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67660B162B4D067700FB7FE7 /* LaunchScreen.storyboard in Resources */,
+				67660B132B4D067700FB7FE7 /* Assets.xcassets in Resources */,
+				67660B112B4D067600FB7FE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67660B1A2B4D067700FB7FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67660B242B4D067800FB7FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67660B022B4D067600FB7FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67660B0E2B4D067600FB7FE7 /* ViewController.swift in Sources */,
+				67660B0A2B4D067600FB7FE7 /* AppDelegate.swift in Sources */,
+				67660B0C2B4D067600FB7FE7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67660B182B4D067700FB7FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67660B212B4D067700FB7FE7 /* FluctSDKSwiftPmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67660B222B4D067800FB7FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67660B2B2B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.swift in Sources */,
+				67660B2D2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67660B1E2B4D067700FB7FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67660B052B4D067600FB7FE7 /* FluctSDKSwiftPm */;
+			targetProxy = 67660B1D2B4D067700FB7FE7 /* PBXContainerItemProxy */;
+		};
+		67660B282B4D067800FB7FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67660B052B4D067600FB7FE7 /* FluctSDKSwiftPm */;
+			targetProxy = 67660B272B4D067800FB7FE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67660B0F2B4D067600FB7FE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67660B102B4D067600FB7FE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67660B142B4D067700FB7FE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67660B152B4D067700FB7FE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67660B2E2B4D067800FB7FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67660B2F2B4D067800FB7FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67660B312B4D067800FB7FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5957UHEQ5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FluctSDKSwiftPm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.arimura.FluctSDKSwiftPm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67660B322B4D067800FB7FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5957UHEQ5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FluctSDKSwiftPm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.arimura.FluctSDKSwiftPm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67660B342B4D067800FB7FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5957UHEQ5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.arimura.FluctSDKSwiftPmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FluctSDKSwiftPm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FluctSDKSwiftPm";
+			};
+			name = Debug;
+		};
+		67660B352B4D067800FB7FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5957UHEQ5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.arimura.FluctSDKSwiftPmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FluctSDKSwiftPm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FluctSDKSwiftPm";
+			};
+			name = Release;
+		};
+		67660B372B4D067800FB7FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5957UHEQ5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.arimura.FluctSDKSwiftPmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FluctSDKSwiftPm;
+			};
+			name = Debug;
+		};
+		67660B382B4D067800FB7FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5957UHEQ5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.arimura.FluctSDKSwiftPmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FluctSDKSwiftPm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67660B012B4D067600FB7FE7 /* Build configuration list for PBXProject "FluctSDKSwiftPm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67660B2E2B4D067800FB7FE7 /* Debug */,
+				67660B2F2B4D067800FB7FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67660B302B4D067800FB7FE7 /* Build configuration list for PBXNativeTarget "FluctSDKSwiftPm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67660B312B4D067800FB7FE7 /* Debug */,
+				67660B322B4D067800FB7FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67660B332B4D067800FB7FE7 /* Build configuration list for PBXNativeTarget "FluctSDKSwiftPmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67660B342B4D067800FB7FE7 /* Debug */,
+				67660B352B4D067800FB7FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67660B362B4D067800FB7FE7 /* Build configuration list for PBXNativeTarget "FluctSDKSwiftPmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67660B372B4D067800FB7FE7 /* Debug */,
+				67660B382B4D067800FB7FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67660AFE2B4D067600FB7FE7 /* Project object */;
+}
