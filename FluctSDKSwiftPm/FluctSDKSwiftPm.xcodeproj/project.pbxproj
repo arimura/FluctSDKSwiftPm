@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		67660B212B4D067700FB7FE7 /* FluctSDKSwiftPmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67660B202B4D067700FB7FE7 /* FluctSDKSwiftPmTests.swift */; };
 		67660B2B2B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67660B2A2B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.swift */; };
 		67660B2D2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67660B2C2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift */; };
+		67660B3E2B4D137C00FB7FE7 /* FluctSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 67660B3D2B4D137C00FB7FE7 /* FluctSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67660B3E2B4D137C00FB7FE7 /* FluctSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = FluctSDKSwiftPm;
+			packageProductDependencies = (
+				67660B3D2B4D137C00FB7FE7 /* FluctSDK */,
+			);
 			productName = FluctSDKSwiftPm;
 			productReference = 67660B062B4D067600FB7FE7 /* FluctSDKSwiftPm.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 67660AFD2B4D067600FB7FE7;
+			packageReferences = (
+				67660B3C2B4D137C00FB7FE7 /* XCLocalSwiftPackageReference "../FluctSDK" */,
+			);
 			productRefGroup = 67660B072B4D067600FB7FE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -607,6 +615,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		67660B3C2B4D137C00FB7FE7 /* XCLocalSwiftPackageReference "../FluctSDK" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../FluctSDK;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67660B3D2B4D137C00FB7FE7 /* FluctSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FluctSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 67660AFE2B4D067600FB7FE7 /* Project object */;
 }
