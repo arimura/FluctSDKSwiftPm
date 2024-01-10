@@ -17,6 +17,7 @@
 		67660B2B2B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67660B2A2B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.swift */; };
 		67660B2D2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67660B2C2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift */; };
 		67660B3E2B4D137C00FB7FE7 /* FluctSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 67660B3D2B4D137C00FB7FE7 /* FluctSDK */; };
+		67B9D73F2B4E701400CDF9EF /* FluctSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 67B9D73E2B4E701400CDF9EF /* FluctSDKResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		67660B262B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluctSDKSwiftPmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67660B2A2B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctSDKSwiftPmUITests.swift; sourceTree = "<group>"; };
 		67660B2C2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctSDKSwiftPmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67B9D73E2B4E701400CDF9EF /* FluctSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FluctSDKResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		67660B082B4D067600FB7FE7 /* FluctSDKSwiftPm */ = {
 			isa = PBXGroup;
 			children = (
+				67B9D73E2B4E701400CDF9EF /* FluctSDKResources.bundle */,
 				67660B092B4D067600FB7FE7 /* AppDelegate.swift */,
 				67660B0B2B4D067600FB7FE7 /* SceneDelegate.swift */,
 				67660B0D2B4D067600FB7FE7 /* ViewController.swift */,
@@ -242,6 +245,7 @@
 				67660B162B4D067700FB7FE7 /* LaunchScreen.storyboard in Resources */,
 				67660B132B4D067700FB7FE7 /* Assets.xcassets in Resources */,
 				67660B112B4D067600FB7FE7 /* Main.storyboard in Resources */,
+				67B9D73F2B4E701400CDF9EF /* FluctSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
