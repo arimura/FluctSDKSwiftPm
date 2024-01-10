@@ -1,3 +1,4 @@
+#clean and build is for installing local FluctSDK.xcframework
 clean:
 	rm -rf FluctSDK/FluctSDK.xcframework/*
 
