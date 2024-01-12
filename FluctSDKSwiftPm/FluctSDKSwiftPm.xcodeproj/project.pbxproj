@@ -18,6 +18,7 @@
 		67660B2D2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67660B2C2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift */; };
 		67660B3E2B4D137C00FB7FE7 /* FluctSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 67660B3D2B4D137C00FB7FE7 /* FluctSDK */; };
 		67B9D73F2B4E701400CDF9EF /* FluctSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 67B9D73E2B4E701400CDF9EF /* FluctSDKResources.bundle */; };
+		67B9D7422B50EC8100CDF9EF /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 67B9D7412B50EC8100CDF9EF /* GoogleMobileAds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B9D7422B50EC8100CDF9EF /* GoogleMobileAds in Frameworks */,
 				67660B3E2B4D137C00FB7FE7 /* FluctSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +152,7 @@
 			name = FluctSDKSwiftPm;
 			packageProductDependencies = (
 				67660B3D2B4D137C00FB7FE7 /* FluctSDK */,
+				67B9D7412B50EC8100CDF9EF /* GoogleMobileAds */,
 			);
 			productName = FluctSDKSwiftPm;
 			productReference = 67660B062B4D067600FB7FE7 /* FluctSDKSwiftPm.app */;
@@ -225,6 +228,7 @@
 			mainGroup = 67660AFD2B4D067600FB7FE7;
 			packageReferences = (
 				67660B3C2B4D137C00FB7FE7 /* XCLocalSwiftPackageReference "../FluctSDK" */,
+				67B9D7402B50EC8100CDF9EF /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
 			);
 			productRefGroup = 67660B072B4D067600FB7FE7 /* Products */;
 			projectDirPath = "";
@@ -629,10 +633,26 @@
 		};
 /* End XCLocalSwiftPackageReference section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		67B9D7402B50EC8100CDF9EF /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		67660B3D2B4D137C00FB7FE7 /* FluctSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FluctSDK;
+		};
+		67B9D7412B50EC8100CDF9EF /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67B9D7402B50EC8100CDF9EF /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
