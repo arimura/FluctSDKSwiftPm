@@ -19,6 +19,19 @@
 		67660B3E2B4D137C00FB7FE7 /* FluctSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 67660B3D2B4D137C00FB7FE7 /* FluctSDK */; };
 		67B9D73F2B4E701400CDF9EF /* FluctSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 67B9D73E2B4E701400CDF9EF /* FluctSDKResources.bundle */; };
 		67B9D7422B50EC8100CDF9EF /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 67B9D7412B50EC8100CDF9EF /* GoogleMobileAds */; };
+		67B9D7E62B5537B700CDF9EF /* GADMediationAdapterFluctUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9D7CD2B5537B700CDF9EF /* GADMediationAdapterFluctUtil.m */; };
+		67B9D7E72B5537B700CDF9EF /* GADBannerAdapterFluctOptimizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9D7D22B5537B700CDF9EF /* GADBannerAdapterFluctOptimizer.m */; };
+		67B9D7E82B5537B700CDF9EF /* GADMAdapterFluctExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9D7D62B5537B700CDF9EF /* GADMAdapterFluctExtras.m */; };
+		67B9D7E92B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctStarter.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9D7D72B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctStarter.m */; };
+		67B9D7EA2B5537B700CDF9EF /* GADMAdapterFluctRewardedAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9D7D82B5537B700CDF9EF /* GADMAdapterFluctRewardedAd.m */; };
+		67B9D7EB2B5537B700CDF9EF /* GADBannerAdapterFluctStarter.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9D7DA2B5537B700CDF9EF /* GADBannerAdapterFluctStarter.m */; };
+		67B9D7EC2B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctOptimizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9D7DD2B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctOptimizer.m */; };
+		67B9D7ED2B5537B700CDF9EF /* GADRewardedVideoAdapterFluctOptimizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9D7DE2B5537B700CDF9EF /* GADRewardedVideoAdapterFluctOptimizer.m */; };
+		67B9D7EE2B5537B700CDF9EF /* GADVideoInterstitialAdapterFluct.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9D7DF2B5537B700CDF9EF /* GADVideoInterstitialAdapterFluct.m */; };
+		67B9D7EF2B5537B700CDF9EF /* GADAdapterFluctVideoDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9D7E02B5537B700CDF9EF /* GADAdapterFluctVideoDelegateProxy.m */; };
+		67B9D7F02B5537B700CDF9EF /* GADRewardedVideoAdapterFluctStarter.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9D7E12B5537B700CDF9EF /* GADRewardedVideoAdapterFluctStarter.m */; };
+		67B9D7F12B5537B700CDF9EF /* GADMediationAdapterFluct.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9D7E32B5537B700CDF9EF /* GADMediationAdapterFluct.m */; };
+		67B9D7F22B5537B700CDF9EF /* GADBannerAdapterFluct.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9D7E52B5537B700CDF9EF /* GADBannerAdapterFluct.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,34 @@
 		67660B2A2B4D067800FB7FE7 /* FluctSDKSwiftPmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctSDKSwiftPmUITests.swift; sourceTree = "<group>"; };
 		67660B2C2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctSDKSwiftPmUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		67B9D73E2B4E701400CDF9EF /* FluctSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FluctSDKResources.bundle; sourceTree = "<group>"; };
+		67B9D7CA2B5537B600CDF9EF /* FluctSDKSwiftPm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FluctSDKSwiftPm-Bridging-Header.h"; sourceTree = "<group>"; };
+		67B9D7CB2B5537B700CDF9EF /* GADRewardedVideoAdapterFluctOptimizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRewardedVideoAdapterFluctOptimizer.h; sourceTree = "<group>"; };
+		67B9D7CC2B5537B700CDF9EF /* GADMAdapterFluctExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdapterFluctExtras.h; sourceTree = "<group>"; };
+		67B9D7CD2B5537B700CDF9EF /* GADMediationAdapterFluctUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADMediationAdapterFluctUtil.m; sourceTree = "<group>"; };
+		67B9D7CE2B5537B700CDF9EF /* GADMediationAdapterFluct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMediationAdapterFluct.h; sourceTree = "<group>"; };
+		67B9D7CF2B5537B700CDF9EF /* GADBannerAdapterFluctOptimizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerAdapterFluctOptimizer.h; sourceTree = "<group>"; };
+		67B9D7D02B5537B700CDF9EF /* GADMFluctError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMFluctError.h; sourceTree = "<group>"; };
+		67B9D7D12B5537B700CDF9EF /* GADVideoInterstitialAdapterFluct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADVideoInterstitialAdapterFluct.h; sourceTree = "<group>"; };
+		67B9D7D22B5537B700CDF9EF /* GADBannerAdapterFluctOptimizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADBannerAdapterFluctOptimizer.m; sourceTree = "<group>"; };
+		67B9D7D32B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctStarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADVideoInterstitialAdapterFluctStarter.h; sourceTree = "<group>"; };
+		67B9D7D42B5537B700CDF9EF /* GADMediationAdapterFluctUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMediationAdapterFluctUtil.h; sourceTree = "<group>"; };
+		67B9D7D52B5537B700CDF9EF /* GADBannerAdapterFluctStarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerAdapterFluctStarter.h; sourceTree = "<group>"; };
+		67B9D7D62B5537B700CDF9EF /* GADMAdapterFluctExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADMAdapterFluctExtras.m; sourceTree = "<group>"; };
+		67B9D7D72B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctStarter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADVideoInterstitialAdapterFluctStarter.m; sourceTree = "<group>"; };
+		67B9D7D82B5537B700CDF9EF /* GADMAdapterFluctRewardedAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADMAdapterFluctRewardedAd.m; sourceTree = "<group>"; };
+		67B9D7D92B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctOptimizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADVideoInterstitialAdapterFluctOptimizer.h; sourceTree = "<group>"; };
+		67B9D7DA2B5537B700CDF9EF /* GADBannerAdapterFluctStarter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADBannerAdapterFluctStarter.m; sourceTree = "<group>"; };
+		67B9D7DB2B5537B700CDF9EF /* GADRewardedVideoAdapterFluctStarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRewardedVideoAdapterFluctStarter.h; sourceTree = "<group>"; };
+		67B9D7DC2B5537B700CDF9EF /* GADMAdapterFluctRewardedAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdapterFluctRewardedAd.h; sourceTree = "<group>"; };
+		67B9D7DD2B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctOptimizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADVideoInterstitialAdapterFluctOptimizer.m; sourceTree = "<group>"; };
+		67B9D7DE2B5537B700CDF9EF /* GADRewardedVideoAdapterFluctOptimizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADRewardedVideoAdapterFluctOptimizer.m; sourceTree = "<group>"; };
+		67B9D7DF2B5537B700CDF9EF /* GADVideoInterstitialAdapterFluct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADVideoInterstitialAdapterFluct.m; sourceTree = "<group>"; };
+		67B9D7E02B5537B700CDF9EF /* GADAdapterFluctVideoDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADAdapterFluctVideoDelegateProxy.m; sourceTree = "<group>"; };
+		67B9D7E12B5537B700CDF9EF /* GADRewardedVideoAdapterFluctStarter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADRewardedVideoAdapterFluctStarter.m; sourceTree = "<group>"; };
+		67B9D7E22B5537B700CDF9EF /* GADBannerAdapterFluct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerAdapterFluct.h; sourceTree = "<group>"; };
+		67B9D7E32B5537B700CDF9EF /* GADMediationAdapterFluct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADMediationAdapterFluct.m; sourceTree = "<group>"; };
+		67B9D7E42B5537B700CDF9EF /* GADAdapterFluctVideoDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdapterFluctVideoDelegateProxy.h; sourceTree = "<group>"; };
+		67B9D7E52B5537B700CDF9EF /* GADBannerAdapterFluct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADBannerAdapterFluct.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +148,7 @@
 			children = (
 				67B9D73E2B4E701400CDF9EF /* FluctSDKResources.bundle */,
 				67660B092B4D067600FB7FE7 /* AppDelegate.swift */,
+				67B9D7C92B55378D00CDF9EF /* GoogleMobileAdsMediationFluct */,
 				67660B0B2B4D067600FB7FE7 /* SceneDelegate.swift */,
 				67660B0D2B4D067600FB7FE7 /* ViewController.swift */,
 				67660B0F2B4D067600FB7FE7 /* Main.storyboard */,
@@ -132,6 +174,41 @@
 				67660B2C2B4D067800FB7FE7 /* FluctSDKSwiftPmUITestsLaunchTests.swift */,
 			);
 			path = FluctSDKSwiftPmUITests;
+			sourceTree = "<group>";
+		};
+		67B9D7C92B55378D00CDF9EF /* GoogleMobileAdsMediationFluct */ = {
+			isa = PBXGroup;
+			children = (
+				67B9D7E42B5537B700CDF9EF /* GADAdapterFluctVideoDelegateProxy.h */,
+				67B9D7E02B5537B700CDF9EF /* GADAdapterFluctVideoDelegateProxy.m */,
+				67B9D7E22B5537B700CDF9EF /* GADBannerAdapterFluct.h */,
+				67B9D7E52B5537B700CDF9EF /* GADBannerAdapterFluct.m */,
+				67B9D7CF2B5537B700CDF9EF /* GADBannerAdapterFluctOptimizer.h */,
+				67B9D7D22B5537B700CDF9EF /* GADBannerAdapterFluctOptimizer.m */,
+				67B9D7D52B5537B700CDF9EF /* GADBannerAdapterFluctStarter.h */,
+				67B9D7DA2B5537B700CDF9EF /* GADBannerAdapterFluctStarter.m */,
+				67B9D7CC2B5537B700CDF9EF /* GADMAdapterFluctExtras.h */,
+				67B9D7D62B5537B700CDF9EF /* GADMAdapterFluctExtras.m */,
+				67B9D7DC2B5537B700CDF9EF /* GADMAdapterFluctRewardedAd.h */,
+				67B9D7D82B5537B700CDF9EF /* GADMAdapterFluctRewardedAd.m */,
+				67B9D7CE2B5537B700CDF9EF /* GADMediationAdapterFluct.h */,
+				67B9D7E32B5537B700CDF9EF /* GADMediationAdapterFluct.m */,
+				67B9D7D42B5537B700CDF9EF /* GADMediationAdapterFluctUtil.h */,
+				67B9D7CD2B5537B700CDF9EF /* GADMediationAdapterFluctUtil.m */,
+				67B9D7D02B5537B700CDF9EF /* GADMFluctError.h */,
+				67B9D7CB2B5537B700CDF9EF /* GADRewardedVideoAdapterFluctOptimizer.h */,
+				67B9D7DE2B5537B700CDF9EF /* GADRewardedVideoAdapterFluctOptimizer.m */,
+				67B9D7DB2B5537B700CDF9EF /* GADRewardedVideoAdapterFluctStarter.h */,
+				67B9D7E12B5537B700CDF9EF /* GADRewardedVideoAdapterFluctStarter.m */,
+				67B9D7D12B5537B700CDF9EF /* GADVideoInterstitialAdapterFluct.h */,
+				67B9D7DF2B5537B700CDF9EF /* GADVideoInterstitialAdapterFluct.m */,
+				67B9D7D92B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctOptimizer.h */,
+				67B9D7DD2B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctOptimizer.m */,
+				67B9D7D32B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctStarter.h */,
+				67B9D7D72B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctStarter.m */,
+				67B9D7CA2B5537B600CDF9EF /* FluctSDKSwiftPm-Bridging-Header.h */,
+			);
+			path = GoogleMobileAdsMediationFluct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +283,7 @@
 				TargetAttributes = {
 					67660B052B4D067600FB7FE7 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 					67660B1B2B4D067700FB7FE7 = {
 						CreatedOnToolsVersion = 15.0;
@@ -274,9 +352,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B9D7E62B5537B700CDF9EF /* GADMediationAdapterFluctUtil.m in Sources */,
 				67660B0E2B4D067600FB7FE7 /* ViewController.swift in Sources */,
+				67B9D7EA2B5537B700CDF9EF /* GADMAdapterFluctRewardedAd.m in Sources */,
+				67B9D7F22B5537B700CDF9EF /* GADBannerAdapterFluct.m in Sources */,
+				67B9D7E92B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctStarter.m in Sources */,
+				67B9D7E82B5537B700CDF9EF /* GADMAdapterFluctExtras.m in Sources */,
 				67660B0A2B4D067600FB7FE7 /* AppDelegate.swift in Sources */,
+				67B9D7F12B5537B700CDF9EF /* GADMediationAdapterFluct.m in Sources */,
+				67B9D7EB2B5537B700CDF9EF /* GADBannerAdapterFluctStarter.m in Sources */,
+				67B9D7EE2B5537B700CDF9EF /* GADVideoInterstitialAdapterFluct.m in Sources */,
+				67B9D7EC2B5537B700CDF9EF /* GADVideoInterstitialAdapterFluctOptimizer.m in Sources */,
 				67660B0C2B4D067600FB7FE7 /* SceneDelegate.swift in Sources */,
+				67B9D7ED2B5537B700CDF9EF /* GADRewardedVideoAdapterFluctOptimizer.m in Sources */,
+				67B9D7F02B5537B700CDF9EF /* GADRewardedVideoAdapterFluctStarter.m in Sources */,
+				67B9D7EF2B5537B700CDF9EF /* GADAdapterFluctVideoDelegateProxy.m in Sources */,
+				67B9D7E72B5537B700CDF9EF /* GADBannerAdapterFluctOptimizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +549,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5957UHEQ5V;
@@ -476,6 +568,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.arimura.FluctSDKSwiftPm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FluctSDKSwiftPm/GoogleMobileAdsMediationFluct/FluctSDKSwiftPm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -486,6 +580,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5957UHEQ5V;
@@ -504,6 +599,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.arimura.FluctSDKSwiftPm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FluctSDKSwiftPm/GoogleMobileAdsMediationFluct/FluctSDKSwiftPm-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
